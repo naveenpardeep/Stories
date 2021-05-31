@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/jokeslayout">
+
+    <TextView
+        android:id="@+id/jokes"
+        android:layout_width="match_parent"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="60dp"
+        android:paddingBottom="5.5dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"/>
+
+    <ImageView
+        android:id="@+id/go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_go"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/funny"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
